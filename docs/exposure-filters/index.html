@@ -29,7 +29,7 @@
         <form onsubmit="calculateExposure(); return false;">
             <label for="exposure">
                 <span class="label-text">Exposure Time (min/sec/ms)</span>
-                <input type="number" id="exposure" name="exposure" required="true"  />
+                <input type="number" id="exposure" name="exposure" min="0.00" step="any" required="true"  />
             </label>
             <label for="stops">
                 <span class="label-text">Filter Stop Loss</span>
