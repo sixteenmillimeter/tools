@@ -5,4 +5,4 @@ function tsdom () {
 }
 
 mkdir -p docs/exposure-filters/js
-tsdom src/exposure-filters.ts docs/exposure/js/exposure-filters.js
+tsdom src/exposure-filters.ts docs/exposure-filters/js/exposure-filters.js
